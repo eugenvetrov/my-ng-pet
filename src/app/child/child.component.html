@@ -1,0 +1,8 @@
+<p>child works!</p>
+<p>
+  Today's item: {{item}}
+</p>
+<label for="item-input">Add an item:</label>
+<input type="text" id="item-input" #newItem #deletingItem>
+<button type="button" (click)="addNewItem(newItem.value)">Add to parent's list</button>
+<button type="button" (click)="deleteItem(deletingItem.value)">Delete</button>

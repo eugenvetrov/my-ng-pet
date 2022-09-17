@@ -1,0 +1,5 @@
+<p>parent works!</p>
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+<app-child [item]="currentItem" (newItemEvent)="addItem($event)" (deleteRequest)="crossOffItem($event)"></app-child>

@@ -7,13 +7,17 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { CatFactComponent } from './cat-fact/cat-fact.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
     HomeComponent,
-    CatFactComponent
+    CatFactComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
